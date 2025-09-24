@@ -12,7 +12,7 @@ export const GifExpertApp = () => {
     return (
         <>
             {/* Title */}
-            <h1>GifExpertApp</h1>
+            {/* <h1 aria-label="title-heading">GifExpertApp</h1> */}
 
             {/* Add Category */}
             <AddCategory onNewCategory={onAddCategory} />
